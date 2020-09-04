@@ -3,8 +3,7 @@ def generate_num
 end
 
 def players_guess
-  puts ""
-  gets.chomp
+  input = gets.chomp
 
 def run_guessing_game 
   generate_num
