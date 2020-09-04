@@ -1,5 +1,5 @@
 def generate_num
-  return rand(1..6)
+  return rand(6) + 1
 end
 
 def players_guess
